@@ -24,18 +24,19 @@
     
 //     // Пиши код выше этой строки
 //   }
-function getEvenNumbers(start) {
+function getEvenNumbers(start, end) {
     // Пиши код ниже этой строки
+   let newArray = [];
 
-const newArr = []
-for (let elem of start) {
-	if(elem % 2 === 0) {
-    	newArr.push(elem)
-    }
-}
-return newArr
-    
+   for (let i = start; i<=end; i+=1){
+       if (i%2 ===0){
+        newArray.push(i);
+       }
+   }
+   return newArray;
+   
+
     // Пиши код выше этой строки
   }
 
-  console.log(getEvenNumbers(5));
+  console.log(getEvenNumbers(6,12));
