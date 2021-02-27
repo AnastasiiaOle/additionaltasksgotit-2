@@ -32,3 +32,8 @@ function includes(array, value) {
     return false;
     // Пиши код выше этой строки
   }
+
+//   function includes(array, value) {
+//     for (let i = 0; i <=  array.length; i++) {
+//     return array[i] === value;}
+//   }
